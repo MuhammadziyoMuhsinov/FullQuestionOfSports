@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/fragmentMain">
+
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="uz.muhammadziyo.fullquestionofsports.FragmentMain"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/fragmentTennis"
+        android:name="uz.muhammadziyo.fullquestionofsports.FragmentTennis"
+        android:label="fragment_tennis"
+        tools:layout="@layout/fragment_tennis" />
+    <fragment
+        android:id="@+id/fragmentVolleyball"
+        android:name="uz.muhammadziyo.fullquestionofsports.FragmentVolleyball"
+        android:label="fragment_volleyball"
+        tools:layout="@layout/fragment_volleyball" />
+    <fragment
+        android:id="@+id/fragmentBasketball"
+        android:name="uz.muhammadziyo.fullquestionofsports.FragmentBasketball"
+        android:label="fragment_basketball"
+        tools:layout="@layout/fragment_basketball" />
+</navigation>
